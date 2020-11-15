@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="CSS/app.css">
+</head>
+<body>
+    <div class="text">
+        <p>Font</p>
+    </div>
+
+    <script>
+        let total = 30;
+        let shadow = '';
+        for (let i = 1;i <= total;i++){
+            shadow += "-${i}px ${i}px 0 red,";
+        }
+        // 将最后的逗号去除
+        shadow = shadow.slice(0,-1);
+        // 设置样式
+        const text = document.querySelector('.text');
+        text.style.textShadow = shadow;
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+
+    body{
+        whith: 100vw;
+        height: 100vh;
+        background-color: var(--brckground-color);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Mongolian Baiti',sans-serif,Arial;
+    }
+
+    .container {
+        width: 500px;
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }

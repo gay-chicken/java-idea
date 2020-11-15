@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="MySQL">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/MySQL" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/MySQL/src/build/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/demo/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/generated/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/legacy/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/main/core-api/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/main/core-impl/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/main/protocol-impl/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/main/user-api/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/main/user-impl/java" />
+      <root url="file://$PROJECT_DIR$/MySQL/src/test/java" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/MySQL" recursive="false" />
+  </library>
+</component>

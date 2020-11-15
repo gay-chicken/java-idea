@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+.text {
+    font-size: 100px;
+    font-weight: 900;
+    color: #66ccff;
+    transform: rotate(-25deg) skew(25deg);
+    /*text-shadow:*/
+    /*        -1px 1px 0 red,*/
+    /*        -2px 2px 0 red,*/
+    /*        -3px 3px 0 red,*/
+    /*        -4px 4px 0 red,*/
+    /*        -5px 5px 0 red,*/
+    /*        -6px 6px 0 red,*/
+    /*        -7px 7px 0 red,*/
+    /*        -8px 8px 0 red,*/
+    /*        -9px 9px 0 red;*/
+}
+
+.text::before {
+    content: 'Font';
+    position: absolute;
+    color: rgba(0,0,0,0.6);
+    filter: blur(20px);
+    z-index: -1;
+    left: -30px;
+    top: 30px;
+}
